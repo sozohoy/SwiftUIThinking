@@ -1,2 +1,3 @@
 # SwiftUIThinking
-SwiftUI 연습
+SwiftUI
+https://www.youtube.com/@SwiftfulThinking
