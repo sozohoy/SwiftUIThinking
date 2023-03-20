@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct SliderBootcamp: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  
+  @State var sliderValue: Double = 10
+  
+  var body: some View {
+    VStack {
+      Text("Rating :")
+      Text("\(sliderValue)")
+      Slider(value: $sliderValue, in: 0...100)
+        .tint(.red)
     }
+    
+  }
 }
 
 struct SliderBootcamp_Previews: PreviewProvider {
